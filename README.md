@@ -18,6 +18,7 @@ Para instalar y configurar el bot, sigue estos pasos:
 
 Para usar el bot, ejecuta el siguiente comando en la terminal, especificando la criptomoneda a comprar/vender, la criptomoneda con la que se realizan las operaciones y el monto de cada operación:
 
-`node ./src/app BTC USDT 20`
+`npm start BTC USDT 20`
+`npm start LTC USDT 100`
 
 Este comando iniciará el bot para operar con Bitcoin (BTC) y Tether (USDT), con un monto de operación de 20 USDT por transacción.
