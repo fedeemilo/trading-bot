@@ -16,10 +16,17 @@ Para instalar y configurar el bot, sigue estos pasos:
 
 ## Uso
 
-Para usar el bot, ejecuta el siguiente comando en la terminal, especificando la criptomoneda a comprar/vender, la criptomoneda con la que se realizan las operaciones y el monto de cada operación:
+Para usar el bot, ejecuta el siguiente comando en la terminal, especificando la criptomoneda a comprar/vender, la criptomoneda con la que se realizan las operaciones y el monto de cada operación.
+También se puede agregar la palabra `resume` para obtener un resumen de la operación y el lenguaje en el que se desea recibir las notificaciones (por defecto es español).
 
 ```javascript
 npm start BTC USDT 20 // Orden de compra|venta de 20 USDT en Bitcoin (BTC)
 
 npm start LTC USDT 100  // Orden de compra|venta de 100 USDT en Litecoin (LTC)
+
+npm start TRX USDT 50 resume // Orden de compra|venta de 50 USDT en Tron (TRX) y resumen de la operación
+
+npm start ETH USDT 10 resume eng // Orden de compra|venta de 10 USDT en Ethereum (ETH), resumen de la operación y lenguaje en inglés (por defecto es español)
+
+npm start SOL USDT 100 - eng // Orden de compra|venta de 100 USDT en Solana (SOL) y lenguaje en inglés (por defecto es español)
 ```
