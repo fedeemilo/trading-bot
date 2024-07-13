@@ -37,7 +37,7 @@ Pueden configurar un comando personalizado para ejecutar el bot en la terminal, 
 
 ```javascript
     tbot() {
-        cd /c/Users/Fedem/OneDrive/Documentos/fedmilo/projects/trading-bot
+        cd /path/bot/trading-bot // Ruta donde se encuentra el bot en su máquina
         if [[ "$#" -eq 2 ]]; then
                 npm start "$1" USDT "$2" - esp
         elif [[ "$#" -eq 3 && "$3" == "resume" ]]; then
