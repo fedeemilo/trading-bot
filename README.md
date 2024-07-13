@@ -23,5 +23,3 @@ npm start BTC USDT 20 // Orden de compra|venta de 20 USDT en Bitcoin (BTC)
 
 npm start LTC USDT 100  // Orden de compra|venta de 100 USDT en Litecoin (LTC)
 ```
-
-Este comando iniciará el bot para operar con Bitcoin (BTC) y Tether (USDT), con un monto de operación de 20 USDT por transacción.
